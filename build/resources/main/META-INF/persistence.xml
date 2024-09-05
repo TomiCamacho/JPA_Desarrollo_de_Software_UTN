@@ -5,7 +5,11 @@
              version="2.2">
     <persistence-unit name="example-unit" transaction-type="RESOURCE_LOCAL">
         <class>org.example.Cliente</class>
-
+        <class>org.example.Domicilio</class>
+        <class>org.example.Factura</class>
+        <class>org.example.DetalleFactura</class>
+        <class>org.example.Articulo</class>
+        <class>org.example.Categoria</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/test1"/>
