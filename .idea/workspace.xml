@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2272593-1a6b-46f7-9736-107b000c93a2" name="Changes" comment="Actualizacion carpetas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Articulo.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2272593-1a6b-46f7-9736-107b000c93a2" name="Changes" comment="Persistencia realizada en PersistenceApp. Trabajo finalizado." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,15 +48,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.jpaBase-main [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PersistenceApp.executor": "Run",
+    "Gradle.Build tpJPAcamachoTomas.executor": "Run",
+    "Gradle.jpaBase-main [:org.example.Main.main()].executor": "Run",
+    "Gradle.tpJPAcamachoTomas [:main.PersistenceApp.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="PersistenceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.PersistenceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="tpJPAcamachoTomas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tpJPAcamachoTomas" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PersistenceApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +110,39 @@
       <option name="project" value="LOCAL" />
       <updated>1725466809037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Segunda actualizacion de carpetas">
+      <option name="closed" value="true" />
+      <created>1725467722049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725467722049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Clases creadas. Clase cliente persistida en H2.">
+      <option name="closed" value="true" />
+      <created>1725477721724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725477721724</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Relaciones entre clases terminadas.">
+      <option name="closed" value="true" />
+      <created>1725499515542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725499515542</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Persistencia realizada en PersistenceApp. Trabajo finalizado.">
+      <option name="closed" value="true" />
+      <created>1725500855554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725500855554</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +158,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualizacion carpetas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion carpetas" />
+    <MESSAGE value="Segunda actualizacion de carpetas" />
+    <MESSAGE value="Clases creadas. Clase cliente persistida en H2." />
+    <MESSAGE value="Relaciones entre clases terminadas." />
+    <MESSAGE value="Persistencia realizada en PersistenceApp. Trabajo finalizado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Persistencia realizada en PersistenceApp. Trabajo finalizado." />
   </component>
 </project>
