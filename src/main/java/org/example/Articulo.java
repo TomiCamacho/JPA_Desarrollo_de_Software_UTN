@@ -29,7 +29,7 @@ public class Articulo implements Serializable {
     private String denominacion;
 
     @Column(name="precio")
-    private Float precio;
+    private int precio;
 
     @Column(name="cantidad")
     private int cantidad;
@@ -47,7 +47,7 @@ public class Articulo implements Serializable {
 
     @Builder
 
-    public Articulo(String denominacion, Float precio, int cantidad){
+    public Articulo(String denominacion, int precio, int cantidad){
         this.denominacion=denominacion;
         this.precio=precio;
         this.cantidad=cantidad;
