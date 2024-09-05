@@ -75,6 +75,7 @@ public class PersistenceApp {
                     .precio(80)
                     .build();
 
+
             art1.getCategorias().add(perecederos);
             art1.getCategorias().add(lacteos);
             lacteos.getArticulos().add(art1);
